@@ -147,6 +147,11 @@ padding: 20px 150px;
   font-size: 50px;
 }
 
+.focus-d{
+  color: #18181b;
+  font-size: 18px;
+}
+
 .wc-big{
   border-radius: 50px;
   
@@ -154,4 +159,24 @@ padding: 20px 150px;
 
 .avatar{
  border-radius: 100px;
+}
+
+.form{
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 130px 160px;
+  justify-content: space-between;
+  gap: 100px;
+  
+}
+
+.touch-t{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.form-block{
+  display: block;
+  gap: auto;
 }
