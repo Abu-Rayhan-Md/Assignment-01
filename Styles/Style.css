@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+.main{
+  background-color: #e4e4eb;
+  padding-top: 100px;
+}
+
 .ul-title{
   font-weight: bold;
   font-size: 65px;
@@ -66,7 +71,7 @@ border: none;
 .user1{
   background-color: #bfbdee;
   border-radius: 20px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 50px 80px;
   text-align: center;
@@ -179,4 +184,44 @@ padding: 20px 150px;
 .form-block{
   display: block;
   gap: auto;
+}
+
+input[type="text"], [type="email"], textarea{
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+label[for="email"],[for="name"],[for="message"]{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer{
+  max-width: 530px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 100px;
+  color: #4E47FF;
+}
+
+.logo-p{
+  font-size: ;
+  color: #8987A1;
+}
+
+.logo-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: #8987A1;
 }
